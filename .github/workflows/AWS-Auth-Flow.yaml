@@ -26,3 +26,8 @@ jobs:
               run: |
                 aws s3 ls
 
+            - name: Create an S3 bucket
+              run: |
+                aws s3 mb s3://senthil-bucket-18-07-2026-new
+
+
