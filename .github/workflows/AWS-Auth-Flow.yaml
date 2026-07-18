@@ -24,4 +24,4 @@ jobs:
 
             - name: List S3 buckets
               run: |
-                aws s3 mb s3://Senthil-bucket1 --region us-east-1
+                aws s3 mb s3://senthil-bucket1 --region us-east-1
