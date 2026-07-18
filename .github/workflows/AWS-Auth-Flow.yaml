@@ -24,8 +24,5 @@ jobs:
 
             - name: List S3 buckets
               run: |
-<<<<<<< Updated upstream
-                aws s3 mb s3://senthil-bucket1-18-07-2026 --region us-east-1
-=======
-                aws s3 mb s3://Senthil-bucket1 --region us-east-1
->>>>>>> Stashed changes
+                aws s3 ls
+
